@@ -23,16 +23,30 @@ function exercise7() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
-  // -----------------------------------------------------------------
-  // Write code between the lines (above)
-  //
-  //
-  //
-  //
-  //
-  //
+
+
+for (let number=0; number<=23; number++) {
+  if (number <= 5 || number >= 22) {
+    console.log(`It's ${number}h. Time to sleep!`);
+  }
+
+  else if (number == 6 || number == 12 || number == 18) {
+    console.log(`It's ${number}h. Time to eat!`);   
+  }
+
+  else {
+    console.log(`It's ${number}h. Time to train`);
+  }
 }
 
+// -----------------------------------------------------------------
+// Write code between the lines (above)
+//
+//
+//
+//
+//
+//
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-7
 

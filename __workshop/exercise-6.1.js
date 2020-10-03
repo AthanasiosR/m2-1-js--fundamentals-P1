@@ -6,6 +6,17 @@ function exercise6_1() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+  for (var x= 0; x <= 100; x= x+1) {
+    console.log(x);
+}
+
+
+
+
+
+
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
